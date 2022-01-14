@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>JRMFrontendChallenge</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Walkway Bold.ttf</string>
+		<string>Walkway Black RevOblique.ttf</string>
+		<string>Walkway Black.ttf</string>
+		<string>Walkway Bold RevOblique.ttf</string>
+		<string>Walkway Condensed Bold.ttf</string>
+		<string>Walkway Condensed SemiBold.ttf</string>
+		<string>Walkway Condensed.ttf</string>
+		<string>Walkway Expand Black.ttf</string>
+		<string>Walkway Expand Bold.ttf</string>
+		<string>Walkway Expand RevOblique.ttf</string>
+		<string>Walkway Expand SemiBold.ttf</string>
+		<string>Walkway Expand UltraBold.ttf</string>
+		<string>Walkway Expand.ttf</string>
+		<string>Walkway Oblique Black.ttf</string>
+		<string>Walkway Oblique Bold.ttf</string>
+		<string>Walkway Oblique Expand.ttf</string>
+		<string>Walkway Oblique SemiBold.ttf</string>
+		<string>Walkway Oblique UltraBold.ttf</string>
+		<string>Walkway Oblique.ttf</string>
+		<string>Walkway RevOblique.ttf</string>
+		<string>Walkway rounded.ttf</string>
+		<string>Walkway SemiBold RevOblique.ttf</string>
+		<string>Walkway SemiBold.ttf</string>
+		<string>Walkway UltraBold RevOblique.ttf</string>
+		<string>Walkway UltraBold.ttf</string>
+		<string>Walkway UltraCondensed Bold.ttf</string>
+		<string>Walkway UltraCondensed Semi.ttf</string>
+		<string>Walkway UltraCondensed.ttf</string>
+		<string>Walkway UltraExpand Bold.ttf</string>
+		<string>Walkway UltraExpand SemiBold.ttf</string>
+		<string>Walkway UltraExpand.ttf</string>
+	</array>
+</dict>
+</plist>

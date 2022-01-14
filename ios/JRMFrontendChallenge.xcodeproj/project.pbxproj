@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* JRMFrontendChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* JRMFrontendChallengeTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		7700A57D5E8F4B4794172E9D /* Walkway Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8337B3C9A4B148F78611A51C /* Walkway Bold.ttf */; };
+		22BC059E50704DC58F27CBDF /* Walkway Black RevOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1642958480704D5BAB84DB4C /* Walkway Black RevOblique.ttf */; };
+		C65AFBB52F654232A86A8DC1 /* Walkway Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 012DACEB8B6A4C79A88044A1 /* Walkway Black.ttf */; };
+		312929A1EE4D463DA74265A2 /* Walkway Bold RevOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDD13875BABE4072AE08519F /* Walkway Bold RevOblique.ttf */; };
+		BB57935329414953AD0120EA /* Walkway Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B9A1349D6B4C1A891FD1CA /* Walkway Bold.ttf */; };
+		71448AC8AF0647EDA3BDFBD2 /* Walkway Condensed Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BE904ABF8A64B23A462BD58 /* Walkway Condensed Bold.ttf */; };
+		D691DE92A0BC47A482A6DB88 /* Walkway Condensed SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2F750F7C28447758F3B8454 /* Walkway Condensed SemiBold.ttf */; };
+		DAB51A5530E74D919BD18725 /* Walkway Condensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6E02B4107084DBA85AB541D /* Walkway Condensed.ttf */; };
+		665A7EA246C444F58F049885 /* Walkway Expand Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BF4276CEF5141458DB3FB2F /* Walkway Expand Black.ttf */; };
+		99ABE42E236647DF8BCC61AF /* Walkway Expand Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECCF6B26AB2B44E4B6D8A1CA /* Walkway Expand Bold.ttf */; };
+		09CD96FA4A2041F8B7FCF1FD /* Walkway Expand RevOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93769E7165CF460BACFA16BC /* Walkway Expand RevOblique.ttf */; };
+		584A579C3EF8440D83259776 /* Walkway Expand SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64FE791B08624E358A509CDC /* Walkway Expand SemiBold.ttf */; };
+		FAE31EC4126B4DE98F03FB64 /* Walkway Expand UltraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8044800C4CAF4DF5A0EC5B1A /* Walkway Expand UltraBold.ttf */; };
+		89B806D929DC414AAD160F10 /* Walkway Expand.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1FC60E5A2BA14D349CD91ECC /* Walkway Expand.ttf */; };
+		8FBE83C0F4B3400190DAED86 /* Walkway Oblique Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E56C07B7B64347CBAEF613BC /* Walkway Oblique Black.ttf */; };
+		A0FE65E94E3940DA9014004F /* Walkway Oblique Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0ED5911B84E54E60AB057C62 /* Walkway Oblique Bold.ttf */; };
+		AEC30E394A474FB68880E712 /* Walkway Oblique Expand.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2042D8F82E1D44FF9B414C2B /* Walkway Oblique Expand.ttf */; };
+		32266FC4102D4D43BF626CBD /* Walkway Oblique SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A0A2A8E002F45579026F3F3 /* Walkway Oblique SemiBold.ttf */; };
+		6FD2871AD0B64271AAFDDA03 /* Walkway Oblique UltraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E4A88BCB4849FAA60140BF /* Walkway Oblique UltraBold.ttf */; };
+		522D58523D214B7986FC1FAB /* Walkway Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA6985E4421E415C9F0ADF18 /* Walkway Oblique.ttf */; };
+		597F10D4A5AC481994F372E1 /* Walkway RevOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 168ABE23C52A44F79967B228 /* Walkway RevOblique.ttf */; };
+		C41CF6260E8742CEB9B4D0D6 /* Walkway rounded.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B865F74296E4EABB7C3F79F /* Walkway rounded.ttf */; };
+		EC7DAA7255924C1C92FD2648 /* Walkway SemiBold RevOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35AFBA1B8B4B4913B3D819BE /* Walkway SemiBold RevOblique.ttf */; };
+		1FF617F8386445DDBFBEE698 /* Walkway SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0185A74FF9C64212B5E1B15C /* Walkway SemiBold.ttf */; };
+		5331FE6D3CAB496C96E8C02F /* Walkway UltraBold RevOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C397FB811FE649AD98552460 /* Walkway UltraBold RevOblique.ttf */; };
+		F2941727B5EA4AE5AAE31DBA /* Walkway UltraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3695B0785504ED7B4234F0F /* Walkway UltraBold.ttf */; };
+		8A099655D53B45C2A7C068B6 /* Walkway UltraCondensed Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4C5904BBF744D0890E10B02 /* Walkway UltraCondensed Bold.ttf */; };
+		86235C1CDBA340E9BBBC654F /* Walkway UltraCondensed Semi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A11E42299224CACB72E108B /* Walkway UltraCondensed Semi.ttf */; };
+		DD837C04ADBE4B2899C60946 /* Walkway UltraCondensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B98F0EFDCE73443DB44D4B24 /* Walkway UltraCondensed.ttf */; };
+		749FF636FCA845C3BF2344BB /* Walkway UltraExpand Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F2885F6874B473BB3EE0265 /* Walkway UltraExpand Bold.ttf */; };
+		07F55EDE6CD94CDFAD0A2ECF /* Walkway UltraExpand SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60480E794FB04051B58C33E1 /* Walkway UltraExpand SemiBold.ttf */; };
+		5CD4B890458142ABAF3266E2 /* Walkway UltraExpand.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6E0C0E7D410499588317798 /* Walkway UltraExpand.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = JRMFrontendChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* JRMFrontendChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JRMFrontendChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* JRMFrontendChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRMFrontendChallengeTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* JRMFrontendChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JRMFrontendChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = JRMFrontendChallenge/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = JRMFrontendChallenge/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = JRMFrontendChallenge/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = JRMFrontendChallenge/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = JRMFrontendChallenge/main.m; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = JRMFrontendChallenge/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		8337B3C9A4B148F78611A51C /* Walkway Bold.ttf */ = {isa = PBXFileReference; name = "Walkway Bold.ttf"; path = "../src/assets/fonts/Walkway Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1642958480704D5BAB84DB4C /* Walkway Black RevOblique.ttf */ = {isa = PBXFileReference; name = "Walkway Black RevOblique.ttf"; path = "../src/assets/fonts/Walkway/Walkway Black RevOblique.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		012DACEB8B6A4C79A88044A1 /* Walkway Black.ttf */ = {isa = PBXFileReference; name = "Walkway Black.ttf"; path = "../src/assets/fonts/Walkway/Walkway Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DDD13875BABE4072AE08519F /* Walkway Bold RevOblique.ttf */ = {isa = PBXFileReference; name = "Walkway Bold RevOblique.ttf"; path = "../src/assets/fonts/Walkway/Walkway Bold RevOblique.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A6B9A1349D6B4C1A891FD1CA /* Walkway Bold.ttf */ = {isa = PBXFileReference; name = "Walkway Bold.ttf"; path = "../src/assets/fonts/Walkway/Walkway Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8BE904ABF8A64B23A462BD58 /* Walkway Condensed Bold.ttf */ = {isa = PBXFileReference; name = "Walkway Condensed Bold.ttf"; path = "../src/assets/fonts/Walkway/Walkway Condensed Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A2F750F7C28447758F3B8454 /* Walkway Condensed SemiBold.ttf */ = {isa = PBXFileReference; name = "Walkway Condensed SemiBold.ttf"; path = "../src/assets/fonts/Walkway/Walkway Condensed SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C6E02B4107084DBA85AB541D /* Walkway Condensed.ttf */ = {isa = PBXFileReference; name = "Walkway Condensed.ttf"; path = "../src/assets/fonts/Walkway/Walkway Condensed.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2BF4276CEF5141458DB3FB2F /* Walkway Expand Black.ttf */ = {isa = PBXFileReference; name = "Walkway Expand Black.ttf"; path = "../src/assets/fonts/Walkway/Walkway Expand Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ECCF6B26AB2B44E4B6D8A1CA /* Walkway Expand Bold.ttf */ = {isa = PBXFileReference; name = "Walkway Expand Bold.ttf"; path = "../src/assets/fonts/Walkway/Walkway Expand Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		93769E7165CF460BACFA16BC /* Walkway Expand RevOblique.ttf */ = {isa = PBXFileReference; name = "Walkway Expand RevOblique.ttf"; path = "../src/assets/fonts/Walkway/Walkway Expand RevOblique.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		64FE791B08624E358A509CDC /* Walkway Expand SemiBold.ttf */ = {isa = PBXFileReference; name = "Walkway Expand SemiBold.ttf"; path = "../src/assets/fonts/Walkway/Walkway Expand SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8044800C4CAF4DF5A0EC5B1A /* Walkway Expand UltraBold.ttf */ = {isa = PBXFileReference; name = "Walkway Expand UltraBold.ttf"; path = "../src/assets/fonts/Walkway/Walkway Expand UltraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1FC60E5A2BA14D349CD91ECC /* Walkway Expand.ttf */ = {isa = PBXFileReference; name = "Walkway Expand.ttf"; path = "../src/assets/fonts/Walkway/Walkway Expand.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E56C07B7B64347CBAEF613BC /* Walkway Oblique Black.ttf */ = {isa = PBXFileReference; name = "Walkway Oblique Black.ttf"; path = "../src/assets/fonts/Walkway/Walkway Oblique Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0ED5911B84E54E60AB057C62 /* Walkway Oblique Bold.ttf */ = {isa = PBXFileReference; name = "Walkway Oblique Bold.ttf"; path = "../src/assets/fonts/Walkway/Walkway Oblique Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2042D8F82E1D44FF9B414C2B /* Walkway Oblique Expand.ttf */ = {isa = PBXFileReference; name = "Walkway Oblique Expand.ttf"; path = "../src/assets/fonts/Walkway/Walkway Oblique Expand.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0A0A2A8E002F45579026F3F3 /* Walkway Oblique SemiBold.ttf */ = {isa = PBXFileReference; name = "Walkway Oblique SemiBold.ttf"; path = "../src/assets/fonts/Walkway/Walkway Oblique SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C1E4A88BCB4849FAA60140BF /* Walkway Oblique UltraBold.ttf */ = {isa = PBXFileReference; name = "Walkway Oblique UltraBold.ttf"; path = "../src/assets/fonts/Walkway/Walkway Oblique UltraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FA6985E4421E415C9F0ADF18 /* Walkway Oblique.ttf */ = {isa = PBXFileReference; name = "Walkway Oblique.ttf"; path = "../src/assets/fonts/Walkway/Walkway Oblique.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		168ABE23C52A44F79967B228 /* Walkway RevOblique.ttf */ = {isa = PBXFileReference; name = "Walkway RevOblique.ttf"; path = "../src/assets/fonts/Walkway/Walkway RevOblique.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7B865F74296E4EABB7C3F79F /* Walkway rounded.ttf */ = {isa = PBXFileReference; name = "Walkway rounded.ttf"; path = "../src/assets/fonts/Walkway/Walkway rounded.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		35AFBA1B8B4B4913B3D819BE /* Walkway SemiBold RevOblique.ttf */ = {isa = PBXFileReference; name = "Walkway SemiBold RevOblique.ttf"; path = "../src/assets/fonts/Walkway/Walkway SemiBold RevOblique.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0185A74FF9C64212B5E1B15C /* Walkway SemiBold.ttf */ = {isa = PBXFileReference; name = "Walkway SemiBold.ttf"; path = "../src/assets/fonts/Walkway/Walkway SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C397FB811FE649AD98552460 /* Walkway UltraBold RevOblique.ttf */ = {isa = PBXFileReference; name = "Walkway UltraBold RevOblique.ttf"; path = "../src/assets/fonts/Walkway/Walkway UltraBold RevOblique.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E3695B0785504ED7B4234F0F /* Walkway UltraBold.ttf */ = {isa = PBXFileReference; name = "Walkway UltraBold.ttf"; path = "../src/assets/fonts/Walkway/Walkway UltraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C4C5904BBF744D0890E10B02 /* Walkway UltraCondensed Bold.ttf */ = {isa = PBXFileReference; name = "Walkway UltraCondensed Bold.ttf"; path = "../src/assets/fonts/Walkway/Walkway UltraCondensed Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8A11E42299224CACB72E108B /* Walkway UltraCondensed Semi.ttf */ = {isa = PBXFileReference; name = "Walkway UltraCondensed Semi.ttf"; path = "../src/assets/fonts/Walkway/Walkway UltraCondensed Semi.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B98F0EFDCE73443DB44D4B24 /* Walkway UltraCondensed.ttf */ = {isa = PBXFileReference; name = "Walkway UltraCondensed.ttf"; path = "../src/assets/fonts/Walkway/Walkway UltraCondensed.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8F2885F6874B473BB3EE0265 /* Walkway UltraExpand Bold.ttf */ = {isa = PBXFileReference; name = "Walkway UltraExpand Bold.ttf"; path = "../src/assets/fonts/Walkway/Walkway UltraExpand Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		60480E794FB04051B58C33E1 /* Walkway UltraExpand SemiBold.ttf */ = {isa = PBXFileReference; name = "Walkway UltraExpand SemiBold.ttf"; path = "../src/assets/fonts/Walkway/Walkway UltraExpand SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E6E0C0E7D410499588317798 /* Walkway UltraExpand.ttf */ = {isa = PBXFileReference; name = "Walkway UltraExpand.ttf"; path = "../src/assets/fonts/Walkway/Walkway UltraExpand.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* JRMFrontendChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* JRMFrontendChallengeTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = JRMFrontendChallengeTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* JRMFrontendChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = JRMFrontendChallenge;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* JRMFrontendChallenge */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* JRMFrontendChallengeTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				FFF05710ADC84E4FAAD10FE6 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* JRMFrontendChallenge.app */,
+				00E356EE1AD99517003FC87E /* JRMFrontendChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFF05710ADC84E4FAAD10FE6 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				8337B3C9A4B148F78611A51C /* Walkway Bold.ttf */,
+				1642958480704D5BAB84DB4C /* Walkway Black RevOblique.ttf */,
+				012DACEB8B6A4C79A88044A1 /* Walkway Black.ttf */,
+				DDD13875BABE4072AE08519F /* Walkway Bold RevOblique.ttf */,
+				A6B9A1349D6B4C1A891FD1CA /* Walkway Bold.ttf */,
+				8BE904ABF8A64B23A462BD58 /* Walkway Condensed Bold.ttf */,
+				A2F750F7C28447758F3B8454 /* Walkway Condensed SemiBold.ttf */,
+				C6E02B4107084DBA85AB541D /* Walkway Condensed.ttf */,
+				2BF4276CEF5141458DB3FB2F /* Walkway Expand Black.ttf */,
+				ECCF6B26AB2B44E4B6D8A1CA /* Walkway Expand Bold.ttf */,
+				93769E7165CF460BACFA16BC /* Walkway Expand RevOblique.ttf */,
+				64FE791B08624E358A509CDC /* Walkway Expand SemiBold.ttf */,
+				8044800C4CAF4DF5A0EC5B1A /* Walkway Expand UltraBold.ttf */,
+				1FC60E5A2BA14D349CD91ECC /* Walkway Expand.ttf */,
+				E56C07B7B64347CBAEF613BC /* Walkway Oblique Black.ttf */,
+				0ED5911B84E54E60AB057C62 /* Walkway Oblique Bold.ttf */,
+				2042D8F82E1D44FF9B414C2B /* Walkway Oblique Expand.ttf */,
+				0A0A2A8E002F45579026F3F3 /* Walkway Oblique SemiBold.ttf */,
+				C1E4A88BCB4849FAA60140BF /* Walkway Oblique UltraBold.ttf */,
+				FA6985E4421E415C9F0ADF18 /* Walkway Oblique.ttf */,
+				168ABE23C52A44F79967B228 /* Walkway RevOblique.ttf */,
+				7B865F74296E4EABB7C3F79F /* Walkway rounded.ttf */,
+				35AFBA1B8B4B4913B3D819BE /* Walkway SemiBold RevOblique.ttf */,
+				0185A74FF9C64212B5E1B15C /* Walkway SemiBold.ttf */,
+				C397FB811FE649AD98552460 /* Walkway UltraBold RevOblique.ttf */,
+				E3695B0785504ED7B4234F0F /* Walkway UltraBold.ttf */,
+				C4C5904BBF744D0890E10B02 /* Walkway UltraCondensed Bold.ttf */,
+				8A11E42299224CACB72E108B /* Walkway UltraCondensed Semi.ttf */,
+				B98F0EFDCE73443DB44D4B24 /* Walkway UltraCondensed.ttf */,
+				8F2885F6874B473BB3EE0265 /* Walkway UltraExpand Bold.ttf */,
+				60480E794FB04051B58C33E1 /* Walkway UltraExpand SemiBold.ttf */,
+				E6E0C0E7D410499588317798 /* Walkway UltraExpand.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* JRMFrontendChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "JRMFrontendChallengeTests" */;
+			buildPhases = (
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = JRMFrontendChallengeTests;
+			productName = JRMFrontendChallengeTests;
+			productReference = 00E356EE1AD99517003FC87E /* JRMFrontendChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* JRMFrontendChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "JRMFrontendChallenge" */;
+			buildPhases = (
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JRMFrontendChallenge;
+			productName = JRMFrontendChallenge;
+			productReference = 13B07F961A680F5B00A75B9A /* JRMFrontendChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "JRMFrontendChallenge" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* JRMFrontendChallenge */,
+				00E356ED1AD99517003FC87E /* JRMFrontendChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				7700A57D5E8F4B4794172E9D /* Walkway Bold.ttf in Resources */,
+				22BC059E50704DC58F27CBDF /* Walkway Black RevOblique.ttf in Resources */,
+				C65AFBB52F654232A86A8DC1 /* Walkway Black.ttf in Resources */,
+				312929A1EE4D463DA74265A2 /* Walkway Bold RevOblique.ttf in Resources */,
+				BB57935329414953AD0120EA /* Walkway Bold.ttf in Resources */,
+				71448AC8AF0647EDA3BDFBD2 /* Walkway Condensed Bold.ttf in Resources */,
+				D691DE92A0BC47A482A6DB88 /* Walkway Condensed SemiBold.ttf in Resources */,
+				DAB51A5530E74D919BD18725 /* Walkway Condensed.ttf in Resources */,
+				665A7EA246C444F58F049885 /* Walkway Expand Black.ttf in Resources */,
+				99ABE42E236647DF8BCC61AF /* Walkway Expand Bold.ttf in Resources */,
+				09CD96FA4A2041F8B7FCF1FD /* Walkway Expand RevOblique.ttf in Resources */,
+				584A579C3EF8440D83259776 /* Walkway Expand SemiBold.ttf in Resources */,
+				FAE31EC4126B4DE98F03FB64 /* Walkway Expand UltraBold.ttf in Resources */,
+				89B806D929DC414AAD160F10 /* Walkway Expand.ttf in Resources */,
+				8FBE83C0F4B3400190DAED86 /* Walkway Oblique Black.ttf in Resources */,
+				A0FE65E94E3940DA9014004F /* Walkway Oblique Bold.ttf in Resources */,
+				AEC30E394A474FB68880E712 /* Walkway Oblique Expand.ttf in Resources */,
+				32266FC4102D4D43BF626CBD /* Walkway Oblique SemiBold.ttf in Resources */,
+				6FD2871AD0B64271AAFDDA03 /* Walkway Oblique UltraBold.ttf in Resources */,
+				522D58523D214B7986FC1FAB /* Walkway Oblique.ttf in Resources */,
+				597F10D4A5AC481994F372E1 /* Walkway RevOblique.ttf in Resources */,
+				C41CF6260E8742CEB9B4D0D6 /* Walkway rounded.ttf in Resources */,
+				EC7DAA7255924C1C92FD2648 /* Walkway SemiBold RevOblique.ttf in Resources */,
+				1FF617F8386445DDBFBEE698 /* Walkway SemiBold.ttf in Resources */,
+				5331FE6D3CAB496C96E8C02F /* Walkway UltraBold RevOblique.ttf in Resources */,
+				F2941727B5EA4AE5AAE31DBA /* Walkway UltraBold.ttf in Resources */,
+				8A099655D53B45C2A7C068B6 /* Walkway UltraCondensed Bold.ttf in Resources */,
+				86235C1CDBA340E9BBBC654F /* Walkway UltraCondensed Semi.ttf in Resources */,
+				DD837C04ADBE4B2899C60946 /* Walkway UltraCondensed.ttf in Resources */,
+				749FF636FCA845C3BF2344BB /* Walkway UltraExpand Bold.ttf in Resources */,
+				07F55EDE6CD94CDFAD0A2ECF /* Walkway UltraExpand SemiBold.ttf in Resources */,
+				5CD4B890458142ABAF3266E2 /* Walkway UltraExpand.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* JRMFrontendChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* JRMFrontendChallenge */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JRMFrontendChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JRMFrontendChallenge.app/JRMFrontendChallenge";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = JRMFrontendChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JRMFrontendChallenge.app/JRMFrontendChallenge";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = JRMFrontendChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = JRMFrontendChallenge;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = JRMFrontendChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = JRMFrontendChallenge;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "JRMFrontendChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "JRMFrontendChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "JRMFrontendChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
