@@ -10,6 +10,20 @@ const styles = StyleSheet.create({
     paddingHorizontal: 40,
     flex: 1
   },
+  titleView: {
+    position: 'absolute',
+    top: 0,
+    width: '100%',
+    backgroundColor:'black',
+    alignItems:'center',
+    flexDirection: 'row'
+  },
+  titleText: {
+    color: colors.background,
+    flex: 1,
+    fontSize: 16,
+    textAlign: 'center'
+  },
   imageLogo: {
     height: 200,
     width: 200,
@@ -35,6 +49,10 @@ const styles = StyleSheet.create({
   senhaInput:{
     borderTopLeftRadius: 0,
     borderTopRightRadius: 0
+  },
+  errorText:{
+    marginTop: 5,
+    color: colors.error,
   },
   recoverText:{
     marginTop: 10,
