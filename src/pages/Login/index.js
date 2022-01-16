@@ -19,11 +19,11 @@ import { validateLogin } from '~/services/comunicacao'
 
 export default function (){
   const [title, setTitle] = useState({})
-  const [responsePosition] = useState(new Animated.Value(0))
+  const [responseHeight] = useState(new Animated.Value(0))
   function showResponse(response){
     setTitle(response)
     Animated.timing(
-      responsePosition, {
+      responseHeight, {
         toValue: 60, 
         duration: 300,
         useNativeDriver: false
@@ -31,7 +31,7 @@ export default function (){
     ).start()
     setTimeout(() => {
       Animated.timing(
-        responsePosition, {
+        responseHeight, {
           toValue: 0, 
           duration: 300,
           useNativeDriver: false
@@ -41,8 +41,8 @@ export default function (){
   }
   async function login(values){
     const response = await validateLogin(values)
-    if(response.status != 200){
-      ToastAndroid.show('Erro ao se conectar com o servidor')
+    if(!response.success){
+      ToastAndroid.show('Erro ao se conectar com o servidor', ToastAndroid.SHORT)
       return
     }
     showResponse(response.data)
@@ -77,7 +77,7 @@ export default function (){
                 styles.titleView, 
                 {
                   backgroundColor: titleColors[title.id],
-                  height: responsePosition
+                  height: responseHeight
                 }
               ]}
             >
@@ -108,7 +108,7 @@ export default function (){
                 onChangeText={handleChange('senha')}
                 autoCorrect = {false}
                 secureTextEntry
-                onBlur={handleBlur('bothRequired')}
+                onBlur={handleBlur('senha')}
               />
               <Text style = {styles.errorText}>
                 {(
@@ -117,9 +117,8 @@ export default function (){
                   errors.email : null
                 ) || (
                   errors.bothRequired && 
-                  touched.bothRequired ? 
-                  errors.bothRequired : null
-                )}
+                  touched.senha ?
+                  errors.bothRequired : null)}
               </Text>
               <Text 
                 style = {styles.recoverText}
@@ -128,8 +127,9 @@ export default function (){
                 Recuperar senha
               </Text>
               <TouchableOpacity 
-                style = {styles.login}
+                style = {styles.loginButton}
                 onPress={handleSubmit}
+                activeOpacity={0.6}
               >
                 <Text style = {styles.loginText}>
                   ACESSAR

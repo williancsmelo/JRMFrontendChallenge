@@ -57,9 +57,10 @@ const styles = StyleSheet.create({
   recoverText:{
     marginTop: 10,
     alignSelf: 'flex-end',
-    marginRight: 10
+    marginRight: 10,
+    marginBottom: 20
   },
-  login:{
+  loginButton:{
     flexDirection: 'row',
     alignItems:'center',
     justifyContent:'center',
@@ -69,7 +70,6 @@ const styles = StyleSheet.create({
     borderRadius: 100,
     elevation: 20,
     shadowColor: colors.theme,
-    marginTop: 20,
     marginBottom: 40
   },
   loginText:{
